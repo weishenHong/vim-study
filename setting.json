@@ -1,0 +1,40 @@
+{
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["H"],
+            "after": ["^"]
+        },
+        {
+            "before": ["L"],
+            "after": ["g","_"]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before":["ctrl+h"],
+            "after": ["Left"]
+        },
+        {
+            "before":["ctrl+l"],
+            "after": ["Right"]
+        },
+        {
+            "before":["ctrl+j"],
+            "after": ["Down"]
+        },
+        {
+            "before":["ctrl+k"],
+            "after": ["Up"]
+        }
+    ],
+    "vim.operatorPendingModeKeyBindings": [
+        {
+            "before": ["H"],
+            "after": ["^"]
+        },
+        {
+            "before": ["L"],
+            "after": ["g","_"]
+        }
+    ]
+}
