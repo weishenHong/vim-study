@@ -17,8 +17,11 @@ asdasdasdasdasdsd
 dasdasda 
 
 
-const a = ''
+const a = 'acbsdasdad'
 
 
 const bbbbbbbbbbbbbbbbb = 2222222222222222;
 
+function FN(a,bv) { 
+
+}
