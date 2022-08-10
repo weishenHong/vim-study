@@ -7,6 +7,14 @@
         {
             "before": ["L"],
             "after": ["g","_"]
+        },
+        {
+            "before": ["J"],
+            "after": ["5","j"]
+        },
+        {
+            "before": ["K"],
+            "after": ["5","k"]
         }
     ],
     "vim.insertModeKeyBindings": [
@@ -35,6 +43,16 @@
         {
             "before": ["L"],
             "after": ["g","_"]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["J"],
+            "after": ["5","j"]
+        },
+        {
+            "before": ["K"],
+            "after": ["5","k"]
         }
     ]
 }
