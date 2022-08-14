@@ -54,5 +54,35 @@
             "before": ["K"],
             "after": ["5","k"]
         }
-    ]
+    ],
+     "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["f"],
+            "after": ["s"]
+        },{
+            "before": ["F"],
+            "after": ["S"]
+        },{
+            "before": ["s"],
+            "after": ["c","l"]
+        },{
+            "before": ["S"],
+            "after": ["^","C"]
+        }
+    ],
+    "vim.operatorPendingModeKeyBindingsNonRecursive": [
+        {
+            "before": ["f"],
+            "after": ["z"]
+        },{
+            "before": ["F"],
+            "after": ["Z"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+         {
+            "before": ["f"],
+            "after": ["s"]
+        }
+    ],
 }
